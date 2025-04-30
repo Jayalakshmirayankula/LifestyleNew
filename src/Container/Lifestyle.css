@@ -1,0 +1,698 @@
+body {
+    /*font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;*/
+    background-color: #f4f4f6;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.Lifestyle {
+    background-color: #e6e3e3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+.header_logo {
+    display: flex;
+    align-items: stretch;
+}
+
+.header_logo img {
+    height: 130px;
+    margin-right: 50px;
+    width: 170px;
+}
+
+.header_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_li p {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    margin: 0 0 25px 274px;
+}
+
+.header_list {
+    display: flex;
+    gap: 75px;
+}
+
+.header_list h1 {
+    font-size: large;
+    font-weight: 500;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.greeting {
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    margin: 0;
+}
+
+.rewards-info {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.icon-bag {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.search-bar-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 220px;
+    border-bottom: 1px solid #000;
+}
+
+.search-input {
+    width: 100%;
+    padding: 06px 30px 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.search-icon {
+    position: absolute;
+    right: 8px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.top-nav {
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+    padding: 6px 0;
+    background-color: #f8f8f8;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    padding: 14px 0;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 00px 50px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    height: 80px;
+}
+
+.reward-summary {
+
+
+    color: black;
+
+    .rew {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 05px;
+        margin-top: 22px;
+    }
+
+    .amount {
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 0;
+    }
+
+}
+
+.tabs {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 80px;
+}
+
+.tab-item {
+    position: relative;
+    margin: 30px 25px 0 25px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    font-weight: 700;
+    color: #29486a;
+    font-size: 18px;
+}
+
+.tab-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #29486a;
+    border-radius: 2px;
+}
+
+.main {
+    padding: 30px 40px 0 40px;
+}
+
+.dashboard_card {
+    padding: 20px 10px !important;
+}
+
+.dashboard_card,
+.rewards_offers,
+.redeem_section,
+.card-section {
+    background: #f9f9f9;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+.top-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 0px 40px;
+}
+
+
+.top-stats p {
+    margin: 6px 0;
+    font-size: large;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #000;
+}
+
+#free {
+    margin-right: 120px;
+}
+
+.dashboard_card_header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+}
+
+.reward-points,
+.highlight-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.link-button {
+    margin-top: 20px;
+    background: none;
+    color: #096aba;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 0px;
+}
+
+.redeem_section input.reward-input {
+    padding: 10px;
+    width: 120px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.redeem_section h3 {
+    font-size: 20px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.redeem_section .small-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.redeem_card, .secondary-rewards {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.secondary-rewards {
+    p {
+        font-size: 14px;
+        color: #2a4d91;
+        font-weight: 500;
+    }
+
+    margin-right: 0px;
+}
+
+.redeem_card p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 04px 0 0 0;
+}
+
+.blue-button {
+    background-color: #29486a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.secondary-button {
+    background: #c8e2f7;
+    color: #333;
+    font-weight: 200;
+    padding: 10px 20px;
+    border: 1px solid #c8e2f7;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 14px;
+
+}
+
+
+.rewards_offers {
+    background: #ffffff;
+    padding: 10px 50px 30px 50px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.redeem_section h3, .rewards_offers h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #002a5c;
+    margin-bottom: 4px;
+}
+
+.rewards_offers p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.offer-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    flex: 1;
+    min-width: 280px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 0 16px 16px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.offer-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.offer-header {
+    background-color: #29486a;
+    color: #fff;
+    padding: 8px 6px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 134px;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.offer-card p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.4;
+    margin-top: 0;
+    padding-left: 16px;
+    padding-right: 150px;
+}
+
+.gift_icon,
+.bag_icon,
+.tag_icon {
+    display: inline-block;
+    margin-left: auto;
+
+}
+
+.gift_icon img,
+.bag_icon img,
+.tag_icon img {
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    position: absolute;
+    left: 350px;
+
+}
+
+.offer-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.placeholder-tab {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.apply {
+    color: #2a4d91;
+    margin-top: 0px;
+}
+
+.dashboard_card_header {
+    display: flex;
+}
+
+.dash_logo {
+    background-color: #29486a;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 05px;
+    font-family: 'Segoe UI', sans-serif;
+    height: 40px;
+    width: 66px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+
+}
+
+.rev {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.rev_hed {
+    margin-left: 15px;
+}
+
+.rewardpoint_card {
+    display: flex;
+    justify-content: space-between;
+
+    .blue-button {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 72px;
+        margin-bottom: 20px;
+        width: 566px;
+        height: 40px;
+        border-radius: 10px;
+        text-align: left;
+        background-color: #c8e2f7;
+        color: black;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: large;
+        margin: 75px 40px 20px 40px;
+
+    }
+
+}
+
+.rewardpoint1 {
+    width: 630px;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.rewardpoint2 {
+    width: 630px;
+}
+
+#rewardspoint {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    width: 580px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: end;
+    font-size: 15px;
+}
+
+.secondary-button.disabled {
+    background-color: #c8e2f7;
+    color: #333;
+    cursor: not-allowed;
+}
+
+.secondary-button.active {
+    background-color: #29486a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.review-section {
+    margin-bottom: 30px;
+
+    .remaining {
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 10px;
+    }
+
+    .borderleft {
+        display: flex;
+    }
+
+    .borderheader {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+       /* padding-right: 420px;*/
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .borderright {
+        margin-left: 60px;
+        padding-top: 60px;
+
+        p {
+            margin-bottom: 0px;
+        }
+    }
+
+    h4 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+    .reward_dollars {
+        font-size: 25px;
+        color: #29486a;
+        font-weight: 800;
+    }
+
+    .redeem_card {
+        display: inline;
+
+        p {
+            margin-bottom: 12px;
+            margin-right: 358px;
+        }
+    }
+
+    .dallor {
+        color: #0d6833;
+        font-weight: 800;
+        font-size: 25px;
+        margin-right: 400px;
+    }
+
+    .remaining {
+        margin-bottom: 30px;
+
+        span {
+            font-weight: 800;
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-weight: 450;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .bottom {
+        display: flex;
+        gap: 1rem;
+
+        p {
+            font-size: 16px;
+            color: #2a4d91;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+
+        .review-button {
+            background-color: #2a4d91;
+            border: none;
+            width: 300px;
+            border-radius: 08px;
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .secondary-button {
+            font-weight: 600;
+            font-size: 14px;
+            margin-left: 400px;
+            margin-right: 15px;
+            background-color: #e6f1fc;
+            color: #29486a;
+        }
+    }
+}
+
+/* footer */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    margin-right: 40px;
+    top: 0;
+    .flexcontent{
+        display: flex;
+        align-items: center;
+    }
+    .footer-left{
+        display: flex;
+        align-items: center;
+    }
+    .img-logo-header{
+        width: 150px;
+        height: 100px;
+    }
+    img{
+        width: 22px;
+        margin-right: 10px;
+    }
+    p{
+        margin-left: 15px;
+        margin-right: 105px;
+        font-size: 16px;
+        font-weight: 400;
+        color:rgba(0, 0, 0, 0.6) ;
+    }
+    .footer-center{
+        display: flex;
+        color:rgba(0, 0, 0, 0.6) ;
+
+    }
+    .footer-right{
+        margin-left: 508px;
+        img{
+            margin-right: 15px;
+        }
+    }
+}
+
+
+.placeholder-tab{
+    margin-bottom: 30px;
+}
+
