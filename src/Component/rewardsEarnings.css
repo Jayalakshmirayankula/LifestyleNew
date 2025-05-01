@@ -1,6 +1,8 @@
 .rewards-earnings-container p {
-    margin-top: 0px;
+    margin-top: 8px;
     margin-bottom: 0px;
+    margin-right: 12px;
+    font-size: 16px;
 }
 
 .search-filter-bar {
@@ -12,11 +14,15 @@
 .search-filter-bar span {
     margin-left: 600px;
     padding-top: 9px;
+    font-size: 16px;
 }
 
 .filter-input {
     width: 250px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 1px solid dimgrey;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
 .search-input2 {
@@ -40,16 +46,22 @@
 }
 
 .chip {
-    border: none;
-    background-color: lightgray;
+
+    background-color: white;
     padding: 8px 12px;
     border-radius: 20px;
     cursor: pointer;
+    color: #29486a;
+    width: 100px;
+    border: 1px solid gray;
+    margin-right: 10px;
 }
 
 .chip.active {
-    background-color: darkblue;
+    background-color: #29486a;
     color: white;
+    border: 1px solid gray;
+    margin-right: 10px;
 }
 
 .rewards-table {
@@ -106,7 +118,7 @@
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    cursor: pointer;
+    width:250px;
 }
 
 .bottom-label {

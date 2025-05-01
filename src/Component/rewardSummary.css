@@ -1,57 +1,70 @@
-.rewards-summary-container {
+.summary {
     font-family: 'Arial', sans-serif;
-    background-color: #f3f4f6;
-    padding: 1.5rem 2.5rem;
-
-
+    background: #f9f9f9;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
-.rewards-summary{
-    margin-top: 1.5rem;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px 40px 10px 50px;
-    font-size: 18px;
-    font-weight: 450;
-}
-.rewards-title{
+
+.summary-header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-
+    border-radius: 10px;
+    padding: 15px 0 0px 0;
+    font-size: 18px;
+    font-weight: 450;
+    h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.select-header{
+    margin-left: 723px;
 }
 
-.icons {
+.select-body{
+    select{
+        font-size: 16px;
+        padding-left: 15px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 08px;
+        border: 1px solid #ccc;
+        width: 260px;
+
+    }
+
+}
+.summary-heading {
+    margin: 0;
+}
+
+.action-buttons {
     display: flex;
-    gap:25px;
+    gap: 25px;
 }
 
-.icon {
+.action-icon {
     font-size: 20px;
     cursor: pointer;
 }
 
-.activity-container {
+.summary-content {
     margin-top: 20px;
 }
 
-.activity-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-.date-range-container {
+.date-picker-section {
     position: relative;
-    width: fit-content;
     font-family: Arial, sans-serif;
 }
 
-.label {
+.date-label {
     display: block;
     margin-bottom: 8px;
-
 }
 
-.input-wrapper {
+.date-display-box {
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
@@ -63,16 +76,9 @@
     background-color: #fff;
 }
 
-.date-text {
+.date-display-box span {
     font-size: 18px;
     font-weight: 450;
-}
-
-.divider {
-    height: 24px;
-    width: 1px;
-    background-color: #ccc;
-    margin: 0 10px;
 }
 
 .calendar-icon {
@@ -80,17 +86,10 @@
     color: #555;
 }
 
-.calendar-popup {
+.calendar {
     position: absolute;
     top: 70px;
     z-index: 10;
-}
-.status-select select {
-    font-size: 14px;
-    width: 250px;
-    padding: 12px 14px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
 }
 
 .activity-table {
@@ -105,35 +104,44 @@
     text-align: left;
     border-left: none;
     border-right: none;
-
 }
-
+.date-range{
+    display: flex;
+}
 .activity-table th {
-    background-color: #f5f5f5;
+    background-color: #e6e3e3;
     border: none;
     padding: 20px 0px;
     font-size: 18px;
-    font-weight: 500 !important;
+    font-weight: 500;
 }
-.activity-table td:first-child, th:first-child {
+
+.activity-table td:first-child,
+.activity-table th:first-child {
     padding-left: 25px;
 }
-.extra-gap{
+
+.desc-col {
     padding-right: 120px;
 }
+
 .activity-table td {
     padding: 15px 0px;
 }
+
 .activity-table tr:first-child td {
     border-top: none;
 }
-.bottom-label{
+
+.row-count {
     text-align: right;
     display: flex;
     justify-content: flex-end;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-.birthday-offers{
+.birthday-banner {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -141,8 +149,24 @@
     border-radius: 10px;
     padding: 20px 40px 30px 50px;
 }
-.find-button{
-    background-color:  #2a4d91;
+
+.birthday-icon {
+    height: 90px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+
+.birthday-text {
+    padding-right: 286px;
+}
+
+.birthday-text p {
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.cta-button {
+    background-color: #2a4d91;
     color: white;
     border: none;
     padding: 12px 60px;
@@ -152,17 +176,4 @@
     font-weight: 500;
     align-self: center;
     width: 220px;
-}
-.cake-image{
-    height: 90px;
-    padding-right: 35px;
-    padding-top: 20px;
-}
-.birthday-ex{
-    padding-right: 286px;
-
-    p{
-        font-size: 18px;
-        font-weight: 450;
-    }
 }

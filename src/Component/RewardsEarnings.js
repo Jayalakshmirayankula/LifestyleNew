@@ -12,7 +12,6 @@ function RewardsEarnings() {
     const [searchTerm, setSearchTerm] = useState("");
     const [activeFilter, setActiveFilter] = useState("ALL");
     const fildata = ["ALL", "New", "ExpireSoon", "CashBack", "InStore", "Online"];
-
     const earningsData = useSelector((state) => state.earnings.earningsData);
     const isPendingEarnings = useSelector((state) => state.earnings.isPendingRewards);
     const isErrorRewardsEarnings = useSelector((state) => state.earnings.isErrorRewards);
