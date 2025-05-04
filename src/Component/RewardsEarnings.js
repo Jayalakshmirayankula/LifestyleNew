@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "./rewardsEarnings.css";
 import lifestyleLogo from '../Asserts/lifestylelogo.png';
-import heart from '../Asserts/heart.png';
+import heart from '../Asserts/heartresized.png';
 import archive from "../Asserts/Earnings/archive.svg";
 import award from "../Asserts/Earnings/award.svg";
 import cart from "../Asserts/Earnings/cart2.svg";
@@ -84,21 +84,21 @@ function RewardsEarnings() {
                                     <td className="reward-type">
                                         <div className="type-label">
                                             {reward.type === "New" && (
-                                                <img src={lightning} alt="New" className="earning-image"/>
+                                                <img src={lightning} alt="New" className="lightning"/>
                                             )}
                                             {reward.type === "ExpireSoon" && (
-                                                <img src={exTraingle} alt="Expire Soon" className="earning-image"/>
+                                                <img src={exTraingle} alt="Expire Soon" className="exTraingle"/>
                                             )}
                                             {reward.type === "CashBack" && (
-                                                <img src={award} alt="Cash Back" className="earning-image"/>
+                                                <img src={award} alt="Cash Back" className="award"/>
                                             )}
                                             {reward.type === "InStore" && (
-                                                <img src={cart} alt="In Store" className="earning-image"/>
+                                                <img src={cart} alt="In Store" className="cart"/>
                                             )}
                                             {reward.type === "Online" && (
-                                                <img src={archive} alt="Online" className="earning-image"/>
+                                                <img src={archive} alt="Online" className="archive"/>
                                             )}
-                                            <span style={{marginLeft: "8px"}}>{reward.type}</span>
+                                            <span>{reward.type}</span>
                                         </div>
                                     </td>
 
