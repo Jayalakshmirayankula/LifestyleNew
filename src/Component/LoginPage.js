@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setUsername, setPassword, loginSuccess, loginFailure } from '../Redex/loginSlice';
+import { setUsername, setPassword, loginSuccess, loginFailure } from '../Reducer/loginSlice';
 import { useNavigate } from 'react-router-dom';
 import './loginpage.css';
 

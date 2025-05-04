@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import loginReducer from '../Redex/loginSlice';
+import loginReducer from '../Reducer/loginSlice';
 import logger from 'redux-logger'
-import counterReducer from '../Redex/createSlice';
-import lifestyleReducer from '../Redex/lifestyleSlice';
-import rewardsReducer from '../Redex/rewardsSlice';
-import earningsReducer from '../Redex/earningsSlice';
+import counterReducer from '../Reducer/createSlice';
+import lifestyleReducer from '../Reducer/lifestyleSlice';
+import rewardsReducer from '../Reducer/rewardsSlice';
+import earningsReducer from '../Reducer/earningsSlice';
 export default configureStore({
     reducer: {
         login: loginReducer,

@@ -1,14 +1,14 @@
 .rewards-earnings-container p {
-    margin-top: 8px;
-    margin-bottom: 0px;
-    margin-right: 12px;
+
     font-size: 16px;
+    padding-bottom: 0px;
+    margin-top: 0px;
 }
 
 .search-filter-bar {
     display: flex;
     gap: 10px;
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .search-filter-bar span {
@@ -43,6 +43,10 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+
+    p {
+        margin-top: 0px;
+    }
 }
 
 .chip {
@@ -53,6 +57,7 @@
     cursor: pointer;
     color: #29486a;
     width: 100px;
+    height: 36px;
     border: 1px solid gray;
     margin-right: 10px;
 }
@@ -62,6 +67,8 @@
     color: white;
     border: 1px solid gray;
     margin-right: 10px;
+    width: 100px;
+    height: 36px;
 }
 
 .rewards-table {
@@ -89,23 +96,20 @@
 .earning-image {
     width: 20px;
     height: 20px;
-    vertical-align: middle;
+    padding-left: 27px;
+
 }
 
-.reward-title {
-    font-weight: 600;
-    font-size: 15px;
+.reward-title, .reward-description {
+    font-weight: 400;
+    font-size: 14px;
     margin-bottom: 4px;
 }
 
-.reward-description {
-    font-size: 14px;
-    color: #555;
-}
 
 .reward-expiry {
     font-size: 14px;
-    color: #666;
+
 }
 
 .reward-expiry.expires-soon {
@@ -118,13 +122,13 @@
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    width:250px;
+    width: 250px;
 }
 
 .bottom-label {
-    text-align: center;
+    text-align: right;
     margin-top: 20px;
-    color: gray;
+
 }
 
 .bonus-logo img {
@@ -133,4 +137,77 @@
 
 .bonus-section {
     display: flex;
+}
+
+.rewards-Earnings {
+    background: #f9f9f9;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+
+}
+
+.reward-description-content {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.bottom-label {
+    padding-bottom: 20px;
+}
+
+.donate-rewards {
+    display: flex;
+
+    .find-process-button {
+        width: 250px;
+        height: 36px;
+        border-radius: 8px;
+        color: white;
+        background-color: #2a4d91;
+        border: none;
+        margin-top: 40px;
+    }
+
+    .donate-content {
+        margin-top: 20px;
+
+        h3 {
+            margin-top: 0;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+
+    .donate-icon {
+        width: 120px;
+
+        p {
+
+            margin: 0 20px;
+        }
+    }
+}
+
+.bonus-section {
+    .apply-now-button {
+        background-color: #e0f0ff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        width: 300px;
+        height: 36px;
+margin-top: 85px;
+    }
+
+    .bonus-content {
+        h3 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+
+    }
 }

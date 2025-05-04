@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import {decrement, increment} from "../Redex/createSlice";
+import {decrement, increment} from "../Reducer/createSlice";
 import {bindActionCreators} from "@reduxjs/toolkit";
 
 class Sample extends Component {

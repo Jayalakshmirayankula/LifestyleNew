@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "./rewardsEarnings.css";
-import lifestyleLogo from '../img/lifestylelogo.png';
-import archive from "../img/Earnings/archive.svg";
-import award from "../img/Earnings/award.svg";
-import cart from "../img/Earnings/cart2.svg";
-import exTraingle from "../img/Earnings/exclamation-triangle.svg";
-import lightning from "../img/Earnings/lightning-charge.svg";
+import lifestyleLogo from '../Asserts/lifestylelogo.png';
+import heart from '../Asserts/heart.png';
+import archive from "../Asserts/Earnings/archive.svg";
+import award from "../Asserts/Earnings/award.svg";
+import cart from "../Asserts/Earnings/cart2.svg";
+import exTraingle from "../Asserts/Earnings/exclamation-triangle.svg";
+import lightning from "../Asserts/Earnings/lightning-charge.svg";
 
 function RewardsEarnings() {
     const [searchTerm, setSearchTerm] = useState("");
@@ -36,10 +37,12 @@ function RewardsEarnings() {
 
     return (
         <>
-        <div className="rewards-summary">
+            <div>
+        <div className="rewards-Earnings">
+            <div className="rewards-Earnings-Header">
             <div className="rewards-earnings-container">
                 <p>Rewards & Earnings**</p>
-                <p>As you earn points, you'll be able to view them here and redeem rewards in checkout.</p>
+                <span>As you earn points, you'll be able to view them here and redeem rewards in checkout.</span>
 
                 <div className="search-filter-bar">
                     <input
@@ -129,11 +132,15 @@ function RewardsEarnings() {
                     Showing {filteredRewards.length} of {earningsData.length}
                 </p>
             </div>
+            </div>
         </div>
-    <div className="rewards-summary">
+    <div className="rewards-Earnings">
         <div className="rewards-details">
             <div className="donate-rewards">
-                <div className="donate-icon"></div>
+                <div className="donate-icon">
+                    <img src={heart} alt="Lifestyle Logo"/>
+                    <p>Do Good</p>
+                </div>
                 <div className="donate-content">
                     <h3>DONATE YOUR REWARDS</h3>
                     <p>Pay It Forward When You Donate Your Rewards To A Good Cause. We’ll Match All Donations Up To USD
@@ -144,9 +151,10 @@ function RewardsEarnings() {
         </div>
     </div>
 
-    <div className="rewards-summary">
+    <div className="rewards-Earnings">
         <div className="bonus-section">
             <div className="bonus-logo">
+                <p>Bonus Points</p>
                 <img src={lifestyleLogo} alt="Lifestyle Logo"/>
             </div>
             <div className="bonus-content">
@@ -157,6 +165,7 @@ function RewardsEarnings() {
             <button className="apply-now-button">Apply Now</button>
         </div>
     </div>
+            </div>
 </>
 );
 }

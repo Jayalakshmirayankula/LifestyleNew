@@ -5,7 +5,7 @@ import {DateRange} from "react-date-range";
 import {format, parse} from "date-fns";
 import {enUS} from "date-fns/locale";
 import "./rewardSummary.css";
-import cakeIcon from '../img/cake2-fill.svg';
+import cakeIcon from '../Asserts/cake2-fill.svg';
 
 function RewardsSummary() {
     const rewardData = useSelector((state) => state.rewards.rewardData);

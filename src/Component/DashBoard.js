@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
-import bag from '../img/bag.svg';
-import gift from '../img/gift.svg';
-import tag from '../img/tag.svg';
+import bag from '../Asserts/bag.svg';
+import gift from '../Asserts/gift.svg';
+import tag from '../Asserts/tag.svg';
 import '../Container/Lifestyle.css';
 
 const DashBoard = ({ lifestyleData }) => {
