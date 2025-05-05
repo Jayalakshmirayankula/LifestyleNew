@@ -136,9 +136,11 @@
 
 .bonus-logo img {
     width: 120px;
-    p{
+
+    p {
         margin-bottom: 0px;
         margin-top: 0px;
+        font-size: 18px;
     }
 }
 
@@ -167,6 +169,7 @@
 
 .donate-rewards {
     display: flex;
+    align-items: center;
 
     .find-process-button {
         width: 250px;
@@ -180,6 +183,7 @@
 
     .donate-content {
         margin: 20px 200px 0 30px;
+
         h3 {
             margin-top: 0;
             font-weight: 500;
@@ -209,11 +213,12 @@
         border-radius: 8px;
         width: 300px;
         height: 36px;
-        margin-top: 85px;
+        margin-top: 130px;
     }
 
     .bonus-content {
         margin-left: 30px;
+        margin-top: 40px;
 
         h3 {
             margin-top: 0;
