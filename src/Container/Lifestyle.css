@@ -313,8 +313,8 @@ body {
 }
 
 .redeem_card p {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     margin: 04px 0 0 0;
 }
 
@@ -351,14 +351,14 @@ body {
 
 .redeem_section h3, .rewards_offers h3 {
     font-size: 18px;
-    font-weight: 400;
-    color: #002a5c;
+    font-weight: 500;
+    color: black;
     margin-bottom: 4px;
 }
 
 .rewards_offers p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     color: #333;
     margin-bottom: 30px;
 }
@@ -410,7 +410,7 @@ h2 {
 
 .offer-card p {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     color: #333;
     line-height: 1.4;
     margin-top: 0;
@@ -482,6 +482,7 @@ h2 {
 
 .rev_hed {
     margin-left: 15px;
+    font-weight: 600;
 }
 
 .rewardpoint_card {
@@ -493,7 +494,7 @@ h2 {
         flex-wrap: wrap;
         margin-top: 72px;
         margin-bottom: 20px;
-        width: 566px;
+        width: 540px;
         height: 40px;
         border-radius: 10px;
         text-align: left;
@@ -540,7 +541,7 @@ h2 {
 }
 
 .secondary-button.active {
-    background-color: #29486a;
+    background-color: #2753a1;
     color: #fff;
     cursor: pointer;
 }
@@ -570,6 +571,7 @@ h2 {
 
         p {
             margin-bottom: 0px;
+            font-weight: 600;
         }
     }
 

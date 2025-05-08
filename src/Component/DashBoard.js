@@ -155,7 +155,7 @@ const DashBoard = ({ lifestyleData }) => {
                             </div>
 
                             <div className="remaining">
-                                <p>Remaining Reward Dollars balance:</p>
+                                <p>Remaining Reward Dollars balance( if you redeem ):</p>
                                 <span>${(lifestyleData.rewards - redeemAmount).toFixed(2)}</span>
                             </div>
 
