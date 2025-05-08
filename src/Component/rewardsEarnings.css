@@ -1,0 +1,269 @@
+.rewards-earnings-container p {
+
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.rewards-earnings-container span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.search-filter-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-filter-bar span {
+    margin-left: 600px;
+    padding-top: 9px;
+    font-size: 18px;
+}
+
+.filter-input {
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid dimgrey;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.search-input2 {
+    border: 1px solid dimgrey;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 6px 30px 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.status-select {
+    padding: 8px;
+}
+
+.refine-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    p {
+        margin-top: 08px;
+    }
+}
+
+.chip {
+
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #29486a;
+    width: 100px;
+    height: 36px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.chip.active {
+    background-color: #29486a;
+    color: white;
+    border: 1px solid gray;
+    margin-right: 10px;
+    width: 100px;
+    height: 36px;
+}
+
+.rewards-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.rewards-table td {
+    padding: 16px 16px 16px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.reward-type .type-label {
+    display: flex;
+    font-size: 14px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+
+    img {
+        width: 20px;
+    }
+}
+
+.earning-image {
+    width: 20px;
+    height: 20px;
+    padding-left: 27px;
+
+}
+
+.reward-title, .reward-description {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+
+.reward-expiry {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 250px !important;
+    padding-right: 100px !important;
+
+}
+
+.reward-expiry.expires-soon {
+    color: maroon;
+}
+.ExpireSoon{
+    color: maroon;
+}
+.add-to-cart {
+    background-color: #e0f0ff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #29486a;
+}
+
+.bottom-label {
+    text-align: right;
+    margin-top: 30px !important;
+
+
+}
+
+.bonus-logo {
+ /*   img {
+        width: 120px;
+    }*/
+    p {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+
+}
+
+.bonus-section {
+    display: flex;
+}
+
+.rewards-Earnings {
+    background: #f9f9f9;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+
+}
+
+.reward-description-content {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-left: 60px !important;
+}
+
+.bottom-label {
+    padding-bottom: 20px;
+}
+
+.donate-rewards {
+    display: flex;
+    align-items: center;
+
+    .find-process-button {
+        width: 250px;
+        height: 36px;
+        border-radius: 8px;
+        color: white;
+        background-color: #2a4d91;
+        border: none;
+        margin-top: 40px;
+    }
+
+    .donate-content {
+        margin: 0px 200px 0 30px;
+
+        h3 {
+            margin-top: 0;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+    }
+
+    .donate-icon {
+        width: 120px;
+
+        p {
+            margin: 0 20px;
+        }
+
+        img {
+            width: 120px;
+        }
+    }
+
+}
+.hart{
+    padding-top: 0px;
+}
+.bonus-section {
+    .apply-now-button {
+        background-color: #e0f0ff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        width: 300px;
+        height: 36px;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        color: #29486a;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .bonus-content {
+        margin-left: 30px;
+        margin-top: 40px;
+
+        h3 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+
+    }
+}
+
+
+.lifestyle-logo-container {
+    background-color: #29486a;
+    color: #E7E0CC;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 32px 18px;
+    border-radius: 08px;
+    display: inline-block;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
