@@ -98,7 +98,7 @@ function RewardsEarnings() {
                                             {reward.type === "Online" && (
                                                 <img src={archive} alt="Online" className="archive"/>
                                             )}
-                                            <span>{reward.type}</span>
+                                            <span className={reward.type}>{reward.type}</span>
                                         </div>
                                     </td>
 
@@ -134,7 +134,7 @@ function RewardsEarnings() {
             </div>
             </div>
         </div>
-    <div className="rewards-Earnings">
+    <div className="rewards-Earnings hart">
         <div className="rewards-details">
             <div className="donate-rewards">
                 <div className="donate-icon">
@@ -155,7 +155,10 @@ function RewardsEarnings() {
         <div className="bonus-section">
             <div className="bonus-logo">
                 <p>Bonus Points</p>
-                <img src={lifestyleLogo} alt="Lifestyle Logo"/>
+                {/*<img src={lifestyleLogo} alt="Lifestyle Logo"/>*/}
+                <div className="lifestyle-logo-container">
+                    <span>lifestyle</span>
+                </div>
             </div>
             <div className="bonus-content">
                 <h3>Want to Earn More Points?</h3>

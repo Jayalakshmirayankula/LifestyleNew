@@ -118,7 +118,9 @@
 .reward-expiry.expires-soon {
     color: maroon;
 }
-
+.ExpireSoon{
+    color: maroon;
+}
 .add-to-cart {
     background-color: #e0f0ff;
     border: none;
@@ -134,14 +136,15 @@
 
 }
 
-.bonus-logo img {
-    width: 120px;
-
+.bonus-logo {
+ /*   img {
+        width: 120px;
+    }*/
     p {
-        margin-bottom: 0px;
         margin-top: 0px;
         font-size: 18px;
     }
+
 }
 
 .bonus-section {
@@ -182,7 +185,7 @@
     }
 
     .donate-content {
-        margin: 20px 200px 0 30px;
+        margin: 0px 200px 0 30px;
 
         h3 {
             margin-top: 0;
@@ -203,8 +206,11 @@
             width: 120px;
         }
     }
-}
 
+}
+.hart{
+    padding-top: 0px;
+}
 .bonus-section {
     .apply-now-button {
         background-color: #e0f0ff;
@@ -213,7 +219,11 @@
         border-radius: 8px;
         width: 300px;
         height: 36px;
-        margin-top: 130px;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        color: #29486a;
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .bonus-content {
@@ -228,4 +238,20 @@
         }
 
     }
+}
+
+
+.lifestyle-logo-container {
+    background-color: #29486a;
+    color: #E7E0CC;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 32px 18px;
+    border-radius: 08px;
+    display: inline-block;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
